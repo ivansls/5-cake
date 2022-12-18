@@ -348,8 +348,8 @@
             else if (window == 7)
             {
                 Console.WriteLine("Ваш заказ сохранён, чтобы сделать ещё один нажмите ESC, чтобы выйти нажмите Enter");
-                File.AppendAllText("C:\\Users\\vanya\\Desktop\\ШАРАГА (1)\\С#\\5.CAKE\\ЗАКАЗ.txt", "\nЦена:  " + Convert.ToString(Coast01));
-                File.AppendAllText("C:\\Users\\vanya\\Desktop\\ШАРАГА (1)\\С#\\5.CAKE\\ЗАКАЗ.txt", "\nСостав:  " + Info01);
+                File.AppendAllText("\\Users\\Ivan\\Desktop\\PROJECT С#\\5\\NewFile2.txt", "\nЦена:  " + Convert.ToString(Coast01));
+                File.AppendAllText("\\Users\\Ivan\\Desktop\\PROJECT С#\\NewFile2.txt", "\nСостав:  " + Info01);
                 ConsoleKeyInfo key1 = Console.ReadKey();
                 if (window == 7 & key1.Key == ConsoleKey.Enter)
                 {
